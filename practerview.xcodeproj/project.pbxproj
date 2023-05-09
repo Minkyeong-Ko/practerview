@@ -13,6 +13,10 @@
 		21648DC52A051E31002A8523 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21648DC42A051E31002A8523 /* Preview Assets.xcassets */; };
 		21648DC72A051E31002A8523 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21648DC62A051E31002A8523 /* Persistence.swift */; };
 		21648DCA2A051E31002A8523 /* practerview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21648DC82A051E31002A8523 /* practerview.xcdatamodeld */; };
+		21648DD12A051E47002A8523 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21648DD02A051E47002A8523 /* MainView.swift */; };
+		21648DD32A051FC3002A8523 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21648DD22A051FC3002A8523 /* PracticeView.swift */; };
+		218DBAD82A0A82CD0008815A /* SlideTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218DBAD72A0A82CD0008815A /* SlideTabView.swift */; };
+		21E4597A2A06784D00DA48A8 /* SimulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E459792A06784D00DA48A8 /* SimulationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		21648DC42A051E31002A8523 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21648DC62A051E31002A8523 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		21648DC92A051E31002A8523 /* practerview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = practerview.xcdatamodel; sourceTree = "<group>"; };
+		21648DD02A051E47002A8523 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		21648DD22A051FC3002A8523 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		218DBAD72A0A82CD0008815A /* SlideTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTabView.swift; sourceTree = "<group>"; };
+		21E459792A06784D00DA48A8 /* SimulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +65,14 @@
 			children = (
 				21648DBD2A051E30002A8523 /* practerviewApp.swift */,
 				21648DBF2A051E30002A8523 /* ContentView.swift */,
+				21648DD02A051E47002A8523 /* MainView.swift */,
 				21648DC12A051E31002A8523 /* Assets.xcassets */,
 				21648DC62A051E31002A8523 /* Persistence.swift */,
 				21648DC82A051E31002A8523 /* practerview.xcdatamodeld */,
 				21648DC32A051E31002A8523 /* Preview Content */,
+				21648DD22A051FC3002A8523 /* PracticeView.swift */,
+				21E459792A06784D00DA48A8 /* SimulationView.swift */,
+				218DBAD72A0A82CD0008815A /* SlideTabView.swift */,
 			);
 			path = practerview;
 			sourceTree = "<group>";
@@ -89,6 +101,8 @@
 			dependencies = (
 			);
 			name = practerview;
+			packageProductDependencies = (
+			);
 			productName = practerview;
 			productReference = 21648DBA2A051E30002A8523 /* practerview.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +131,8 @@
 				Base,
 			);
 			mainGroup = 21648DB12A051E30002A8523;
+			packageReferences = (
+			);
 			productRefGroup = 21648DBB2A051E30002A8523 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,9 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218DBAD82A0A82CD0008815A /* SlideTabView.swift in Sources */,
 				21648DCA2A051E31002A8523 /* practerview.xcdatamodeld in Sources */,
+				21648DD32A051FC3002A8523 /* PracticeView.swift in Sources */,
 				21648DC72A051E31002A8523 /* Persistence.swift in Sources */,
 				21648DC02A051E30002A8523 /* ContentView.swift in Sources */,
+				21E4597A2A06784D00DA48A8 /* SimulationView.swift in Sources */,
+				21648DD12A051E47002A8523 /* MainView.swift in Sources */,
 				21648DBE2A051E30002A8523 /* practerviewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

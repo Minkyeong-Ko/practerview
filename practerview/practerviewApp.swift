@@ -13,8 +13,15 @@ struct practerviewApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationView {
+                MainView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
+            
+        // https://stackoverflow.com/questions/29825604/how-to-save-array-to-coredata 코어데이터 배열
+            
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
